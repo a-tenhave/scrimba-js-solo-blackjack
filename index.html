@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Solo Blackjack<h1>
+                <div id="game-btns">
+                    <button id="new-game-btn" onclick="startGame()">Start game</button>
+                    <button id="new-draw-btn" onclick="startDraw()">New draw</button>
+                </div>
+                <p id="cards-el">(Your cards will appear here)</p>
+                <p>Sum:<span id="sum-el"></span></p>
+                <p id="message-el"></p>
+                <button id="add-card-btn" onclick="addCard()">Add card</button>
+                <button id="pass-btn" onclick="pass()">Pass</button>
+                <p>Balance: € <span id="balance-el"></span></p>
+                <p>Number of draws: <span id="draw-count-el">0</span></p>
+                <div id="card-pic-el"></div>
+    </div>
+    <script src="cardDeck.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

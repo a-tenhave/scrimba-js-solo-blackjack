@@ -1,0 +1,59 @@
+@font-face {
+    src: url("fonts/BungeeShade-Regular.ttf");
+    font-family: BungeeShade;
+}
+
+body {
+    background-color: #009900;
+    font-family: BungeeShade;
+    color: red;
+    text-shadow: 2px 2px 2px white;
+}
+
+#container {
+    width: 1200px;
+    height: 900px;
+    background-color: green;
+    margin: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: url("images/jack-hamilton-9SewS6lowEU-unsplash.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: BungeeShade;
+    font-size: 60px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#game-btns {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#cards-el {
+    height: 120px;
+}
+
+#rules-text {
+    padding: 100px 60px;
+}
